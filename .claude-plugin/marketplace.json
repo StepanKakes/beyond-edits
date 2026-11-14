@@ -1,0 +1,12 @@
+{
+  "name": "beyond-edits",
+  "owner": { "name": "Beyond" },
+  "plugins": [
+    {
+      "name": "beyond-edits",
+      "source": "./plugins/beyond-edits",
+      "description": "Postup editu videa v appce Edits přes její MCP: střih, pauzy podle zvuku, titulky, hudba a vyvážený zvuk"
+    }
+  ],
+  "metadata": { "description": "Edits skill od Beyond" }
+}
