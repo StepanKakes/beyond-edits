@@ -13,7 +13,15 @@ Není to styl, je to postup: drží pořadí kroků a kontroly, které platí pr
 6. **Zvuk:** změří a zvedne hlas, hudbu dá pod něj a přehráním ověří, že se nic nezkresluje
 7. **Kontrola:** snímky z každé části videa, uložení projektu, export až na tvůj pokyn
 
-## Instalace
+## Instalace jedním promptem
+
+Zkopíruj tohle do Claude Code:
+
+```
+Nainstaluj mi skill Beyond Edits. Spusť v terminálu `claude plugin marketplace add StepanKakes/beyond-edits` a pak `claude plugin install beyond-edits@beyond-edits`. Ověř to přes `claude plugin details beyond-edits@beyond-edits`, musí tam být skill edits. Pak zkontroluj, jestli mám připojené MCP z appky Edits (nástroje metapilot-native nebo server v `claude mcp list`). Když chybí, řekni mi, ať v Edits zkopíruju prompt pro připojení ke Claudovi a vložím ho sem. Nakonec mi řekni, ať restartuju Claude Code a pak napíšu /beyond-edits:edits.
+```
+
+## Instalace ručně
 
 **1. Připoj Edits ke Claudovi.** V appce Edits zkopíruj prompt pro připojení ke Claudovi a vlož ho do Claude Code.
 
